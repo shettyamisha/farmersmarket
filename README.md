@@ -11,7 +11,6 @@ A full-stack web application that connects local farmers directly with consumers
 - 🛒 Shopping Cart and Checkout
 - 💳 Payment Integration (Stripe & PayPal)
 - 🔔 Order Tracking with Real-Time Notifications
-- 🔐 JWT-based Secure Authentication
 - 📱 Responsive Frontend using React
 - 🗄️ MySQL for Persistent Data Storage
 
@@ -43,7 +42,7 @@ A full-stack web application that connects local farmers directly with consumers
    python -m venv venv
    source venv/bin/activate  # or venv\Scripts\activate on Windows
    pip install -r requirements.txt
-   python app.py
+   python run.py
 ---
    
 4. **Frontend Setup**
