@@ -1,0 +1,191 @@
+/* General Styling for Cart */
+.cart-container {
+    background-image: url('https://thumbs.dreamstime.com/z/healthy-food-background-studio-photo-different-fruits-vegetables-old-wooden-table-84225845.jpg?w=576');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    padding-top: 80px;
+    /* Adjusted for navbar height */
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Navbar Styling */
+body {
+    margin: 0;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.9);
+    /* Slight transparency for navbar */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+}
+
+/* Cart Title */
+.cart-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+    /* Bright white for better visibility */
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 100px;
+    /* Ensures cart title doesn't overlap with navbar */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    /* Adds shadow to the text for better contrast */
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent black background for text */
+    border-radius: 8px;
+}
+
+/* Empty Cart Message */
+.empty-cart-message {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #666;
+    margin-top: 30px;
+}
+
+/* Cart Content */
+.cart-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Cart Items */
+.cart-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.cart-item:hover {
+    transform: scale(1.02);
+    /* Hover effect for cart items */
+}
+
+.cart-item-image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.cart-item-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.item-name {
+    font-size: 1.3rem;
+    color: #222;
+    margin: 0;
+    font-weight: bold;
+}
+
+.item-desc {
+    font-size: 1rem;
+    color: #777;
+}
+
+.item-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #27ae60;
+}
+
+/* Remove Button */
+.remove-btn-styled {
+    padding: 8px 16px;
+    font-size: 1rem;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.remove-btn-styled:hover {
+    background-color: #c0392b;
+}
+
+/* Cart Summary */
+.cart-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-summary h3 {
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.cart-summary span {
+    color: #27ae60;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.checkout-btn {
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-weight: bold;
+}
+
+.checkout-btn:hover {
+    background-color: #219150;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .cart-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cart-summary {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .checkout-btn {
+        width: 100%;
+        margin-top: 20px;
+    }
+}

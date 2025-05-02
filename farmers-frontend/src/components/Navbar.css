@@ -1,0 +1,105 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #007b33;
+    /* Adjusted color for better contrast */
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Added shadow for depth */
+}
+
+.logo {
+    font-size: 1.8rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-cart {
+    margin-right: 20px;
+    cursor: pointer;
+    position: relative;
+    font-size: 1.3rem;
+    /* Slightly increase cart icon size */
+}
+
+.cart-count {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: #dc3545;
+    /* Red background for cart count */
+    color: white;
+    font-size: 0.9rem;
+    padding: 2px 5px;
+    border-radius: 50%;
+}
+
+.user-profile {
+    position: relative;
+}
+
+.user-btn {
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    /* Align icon and name vertically */
+}
+
+.user-btn span {
+    margin-left: 8px;
+    /* Space between icon and name */
+}
+
+.profile-dropdown {
+    position: absolute;
+    top: 35px;
+    right: 0;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: 1px solid #ddd;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    /* Ensure dropdown is above other elements */
+}
+
+.profile-dropdown p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+.logout-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.logout-btn:hover {
+    background-color: #c82333;
+    /* Darken on hover */
+}
+
+.user-btn:hover {
+    opacity: 0.8;
+    /* Slight effect when hovering over the user profile button */
+}
