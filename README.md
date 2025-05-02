@@ -48,7 +48,7 @@ A full-stack web application that connects local farmers directly with consumers
    
 4. **Frontend Setup**
    ```bash
-   cd frontend
+   cd farmers-frontend
    npm install
    npm start
 ---
