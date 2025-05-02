@@ -1,4 +1,3 @@
-# farmersmarket
 # 🥦 Farmers Market Website
 
 A full-stack web application that connects local farmers directly with consumers to facilitate the online sale of fresh produce.
