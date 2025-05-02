@@ -12,7 +12,7 @@ A full-stack web application that connects local farmers directly with consumers
 - 💳 Payment Integration (Stripe & PayPal)
 - 🔔 Order Tracking with Real-Time Notifications
 - 📱 Responsive Frontend using React
-- 🗄️ MySQL for Persistent Data Storage
+- 🗄️ MySQL for Persistent Data Storage 
 
 ---
 
